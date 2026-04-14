@@ -1,0 +1,25 @@
+{
+	"name": "create-pi-package",
+	"version": "0.0.2",
+	"description": "Scaffold a new pi-package with TypeScript, ESM, and Vitest",
+	"type": "module",
+	"bin": {
+		"create-pi-package": "./index.mjs"
+	},
+	"files": [
+		"index.mjs",
+		"README.md"
+	],
+	"keywords": [
+		"pi",
+		"scaffold",
+		"create",
+		"init",
+		"typescript"
+	],
+	"author": "jerryzheng",
+	"license": "MIT",
+	"engines": {
+		"node": ">=20.0.0"
+	}
+}
